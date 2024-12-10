@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+#hero{
+    width: 100%;
+    height: 250px;
+    background-image: url("images/New\ York.jpg");
+    background-size: cover;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#visit{
+    background-color: #a3b18a;
+    padding: 5px 12px;
+    margin-top: 80px;
+    font-size: 25px;
+    text-shadow: 0px 0px 5px white;
+}
+#intro{
+    background-color: #344e41;
+    width: 400px;
+    margin-top: -10px;
+    font-size: 15px;
+    padding: 5px 12px;
+}
+.image-activity{
+    width: 80px;
+    border: none;
+    border-radius: 100%;
+}
+#activities{
+    display: flex;
+    justify-content: space-around;
+}
+.activity{
+    width: 170px;
+}
+#activity-description, #activity-title{
+    font-size: 10px;
+}
+#your-guide{
+    background-color: #588157;
+    width: 430px;
+    height: 300px;
+    display: block;
+    margin: 50px auto 30px auto;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+#guide-img{
+    background-image: url("images/me.JPG");
+    background-size: cover;
+    width: 180px;
+    height: 260px;
+    margin: 0px 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#guide-description{
+    width: 200px;
+}
+button{
+    width: 150px;
+    padding: 15px 5px;
+    font-size: 18px;
+    border: 1px solid #dad7cd;
+    border-radius: 20px;
+    background-color: #a3b18a;
+    font-family: "Libre Baskerville", serif;
+    color: white;
+}
+button:hover{
+    background-color: #344e41;
+}
+span{
+    border-bottom: 1px solid #dad7cd;
+}
